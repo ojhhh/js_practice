@@ -3,6 +3,6 @@ let award = ["홍길동"];
 
 for (let i = 0; i < 3; i++) {
   if (students[i] == award) {
-    console.log("수상자 : " + award[0]);
+    console.log("수상자 : " + award);
   }
 }
