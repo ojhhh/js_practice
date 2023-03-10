@@ -15,6 +15,9 @@ for (let a = 0; a < abc.length; a++) {
     if (aaa[b] == abc[a]) {
       console.log("수상자 : " + aaa[b]);
       b++;
+      if (a == b) {
+        break;
+      }
     }
   }
 }
