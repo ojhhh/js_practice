@@ -6,3 +6,15 @@ for (let i = 0; i < 3; i++) {
     console.log("수상자 : " + award);
   }
 }
+
+let aaa = ["aaa", "bbb", "ccc", "ddd", "eee"];
+let abc = ["bbb", "aaa", "ccc"];
+
+for (let a = 0; a < abc.length; a++) {
+  for (let b = 0; b < aaa.length; b++) {
+    if (aaa[b] == abc[a]) {
+      console.log("수상자 : " + aaa[b]);
+      b++;
+    }
+  }
+}
